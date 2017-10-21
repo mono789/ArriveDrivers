@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Arrive Drivers</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="registrese">Regístrese</string>
+    <string name="facebook_app_id">1431146247005283</string>
+    <string name="title_activity_base">Arrive Drivers</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="repcontrasena">Repetir contraseña</string>
+    <string name="registrar">Registrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="Nombre">Nombre:</string>
+</resources>

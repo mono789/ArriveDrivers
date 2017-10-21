@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.juan.arrivedrivers.RegistroActivity">
+    <ImageView
+        android:layout_width="299dp"
+        android:layout_height="118dp"
+        android:src="@drawable/arrivedrivers"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.12"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/correo"
+            android:id="@+id/eCorreo"
+            android:inputType="textEmailAddress"/>
+        //android:drawableLeft="@drawable/ic_login_mail"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/Nombre"
+            android:id="@+id/eNombre"
+            android:inputType="textPersonName"/>
+        //android:drawableLeft="@drawable/ic_login_name"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/contrasena"
+            android:id="@+id/eContrasena"
+            android:inputType="textPassword"/>
+        //android:drawableLeft="@drawable/ic_login_password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/repcontrasena"
+            android:id="@+id/eRepContrasena"
+            android:inputType="textPassword"/>
+        android:drawableLeft="@drawable/ic_login_password"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/bRegistar"
+                android:onClick="registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/registrar"
+                android:textColor="@color/letter"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

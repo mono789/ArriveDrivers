@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "591883240027",
+    "firebase_url": "https://arrive-drivers.firebaseio.com",
+    "project_id": "arrive-drivers",
+    "storage_bucket": "arrive-drivers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591883240027:android:fa1830ae8c487bd9",
+        "android_client_info": {
+          "package_name": "com.juan.arrivedrivers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591883240027-kis758d2f92se59dbjma5vru1j7lli7e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "591883240027-qb8m9bv33t661dl9po9g72n1p019rhor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juan.arrivedrivers",
+            "certificate_hash": "3de8bfd28aa842645794e0823e31b3d90f603b0e"
+          }
+        },
+        {
+          "client_id": "591883240027-kv0aj1n5krp1eug5ur8nalh7117ram3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlRIeRTKGkIOQpX6C8t4Pr5OK35LxMhIY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591883240027-kis758d2f92se59dbjma5vru1j7lli7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
